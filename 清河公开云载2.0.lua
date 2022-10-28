@@ -57,7 +57,7 @@ function string.split(inputstr, sep)
     return t
 end
 Window=gui.Window( "Window", "fix清河公开云载2.0", 600, 600, 315, 0 )
-Window:SetIcon(texture)
+--Window:SetIcon(texture)
 local QInEMaxCFG=gui.Groupbox( Window, "CFG", 95, 10, 215, 0 )
 local QInEMaxLua=gui.Groupbox( Window, "Luas", 95, 10, 215, 0 )
 local QInEMaxMisc=gui.Groupbox( Window, "Misc", 95, 10, 215, 0 )
