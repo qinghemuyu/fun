@@ -1,5 +1,5 @@
 print('请选择要加载的lua....')
 
-local name = GetScriptName();
-
-print(name,123);
+local CFGUI = gui.Window("CFGUI",
+                         "                                                           ❤ 沃玛 云载 CFG UI ❤",
+                         690, 300, 530, 310)
