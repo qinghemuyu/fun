@@ -1,2 +1,5 @@
 print('请选择要加载的lua....')
-print(GetScriptName()+'123')
+
+local name = GetScriptName();
+
+print(name,123);
